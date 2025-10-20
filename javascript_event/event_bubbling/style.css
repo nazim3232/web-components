@@ -1,0 +1,30 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#grandParent{
+    height: 600px;
+    width: 600px;
+    background-color: blue;
+}
+
+#parent{
+    height: 500px;
+    width: 500px;
+    background-color: black;
+}
+
+#child{
+    height: 400px;
+    width: 400px;
+    background-color: brown;
+}
+#innerChild
+{
+    height: 300px;
+    width: 300px;
+    background-color: beige;
+}
+
