@@ -22,7 +22,6 @@
 
     
 }
-
 #popup{
     position:absolute;
     height : 200px;
@@ -47,9 +46,9 @@
 
 }
 
-#popup.popup_visible
+.popup_visible
 {
-    display: block;
+    display: block !important;
  
 }
 
