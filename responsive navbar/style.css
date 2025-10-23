@@ -8,6 +8,7 @@
 #head
 {
     height: 100vh;
+    background-color: rgb(12, 219, 219);
 }
 #nav_icon p{
     color: wheat;
