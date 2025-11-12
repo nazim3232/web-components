@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+    height : 100vh;
+    padding: 30px;
+
+}
+body > h1{
+    margin-bottom: 20px;
+}
+
+.container
+{
+    border: 2px solid black ;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: black;
+    width: 400px;
+    border-radius: 10px;
+    
+    
+}
+
+.ans{
+    display: none;
+}
+
+.container.show .ans{
+    display: block;
+}
+
